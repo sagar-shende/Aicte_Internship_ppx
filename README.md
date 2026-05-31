@@ -1,15 +1,26 @@
-# Azure AI Agent Automation 🚀
+# ☁️ Azure AI Agent Automation
+![Terraform](https://img.shields.io/badge/Terraform->=1.9.0-purple?logo=terraform)
+![Azure](https://img.shields.io/badge/Microsoft_Azure-Cloud-blue?logo=microsoftazure)
+![Status](https://img.shields.io/badge/Status-Completed-green)
+![AICTE](https://img.shields.io/badge/AICTE-Internship-orange)
 
-A Terraform-based Infrastructure as Code (IaC) project to automate Microsoft Azure resource provisioning — built as a capstone project for the Microsoft Elevate × AICTE Internship Program.
+## 📌 Project Overview
+Automate **Microsoft Azure** infrastructure provisioning using **HashiCorp Terraform**.  
+Eliminates manual portal configuration through Infrastructure as Code (IaC).
 
-## 📌 Problem Statement
-Manual configuration in the Azure portal leads to **Configuration Drift**, human errors, and slow scaling. This project solves that with full automation.
+---
 
-## 🛠️ Tech Stack
-- **Platform:** Microsoft Azure Cloud
-- **IaC Tool:** HashiCorp Terraform (>= 1.9.0)
-- **Provider:** azurerm (~> 4.8.0)
-- **Language:** HCL (HashiCorp Configuration Language)
+## 📚 Topics Covered
+- ✅ Infrastructure as Code (IaC)
+- ✅ Azure Resource Group Creation
+- ✅ Azure Storage Account Automation
+- ✅ HCL (HashiCorp Configuration Language)
+- ✅ Terraform Variables & Outputs
+- ✅ Dependency Management
+- ✅ Configuration Drift Prevention
+- ✅ Machine Learning Storage Backend
+
+---
 
 ## ⚙️ Deployment Steps
 ```bash
@@ -18,24 +29,17 @@ terraform plan    # Preview changes
 terraform apply   # Deploy resources
 ```
 
-## 📦 Resources Created
-- Azure Resource Group (`ai-agent-environment`, East US)
-- Azure Storage Account (with configurable name via variables)
+---
 
-## 📊 Result
-Machine Learning model (Bike Count Prediction) deployed with Azure storage backend — predicted vs actual counts validated successfully.
+## 🛠️ Tools Used
+- **Platform:** Microsoft Azure Cloud
+- **IaC Tool:** HashiCorp Terraform (>= 1.9.0)
+- **Provider:** azurerm (~> 4.8.0)
+- **Language:** HCL (HashiCorp Configuration Language)
+- **Dataset:** Bike Rental Demand (ML Model)
 
-## 🔮 Future Scope
-- Azure OpenAI & Cognitive Services integration
-- Azure Functions for serverless automation
-- CI/CD via GitHub Actions / Azure DevOps
-- Azure Key Vault for secrets management
-- Azure Monitor + Log Analytics
+---
 
-## 📚 References
-- [Terraform Azure Provider Docs](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs)
-- [Microsoft Azure Documentation](https://learn.microsoft.com/en-us/azure/)
-
-## 🏆 Internship
-**Microsoft Elevate × AICTE** | Power BI for Business Applications  
-📅 20 Jan 2026 – 12 Feb 2026 | Student: Sagar Kishor Shende
+## 👤 Author
+**Sagar Kishor Shende**  
+[![GitHub](https://img.shields.io/badge/GitHub-sagar--shende-black?logo=github)](https://github.com/sagar-shende)
