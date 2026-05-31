@@ -1,45 +1,80 @@
-# ☁️ Azure AI Agent Automation
+# ☁️ Azure Infrastructure Automation with Terraform
+
 ![Terraform](https://img.shields.io/badge/Terraform->=1.9.0-purple?logo=terraform)
 ![Azure](https://img.shields.io/badge/Microsoft_Azure-Cloud-blue?logo=microsoftazure)
 ![Status](https://img.shields.io/badge/Status-Completed-green)
-![AICTE](https://img.shields.io/badge/AICTE-Internship-orange)
+![Internship](https://img.shields.io/badge/Microsoft_Elevate×AICTE-Internship-orange)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
-## 📌 Project Overview
-Automate **Microsoft Azure** infrastructure provisioning using **HashiCorp Terraform**.  
-Eliminates manual portal configuration through Infrastructure as Code (IaC).
-
----
-
-## 📚 Topics Covered
-- ✅ Infrastructure as Code (IaC)
-- ✅ Azure Resource Group Creation
-- ✅ Azure Storage Account Automation
-- ✅ HCL (HashiCorp Configuration Language)
-- ✅ Terraform Variables & Outputs
-- ✅ Dependency Management
-- ✅ Configuration Drift Prevention
-- ✅ Machine Learning Storage Backend
+> 🚀 Automated Azure cloud infrastructure using Terraform IaC —
+> eliminating manual errors and reducing deployment time from hours to seconds.
 
 ---
 
-## ⚙️ Deployment Steps
+## 🎯 Problem Solved
+Manual Azure portal configuration causes **Configuration Drift**,
+security risks, and slow scaling.
+This project replaces all manual steps with **version-controlled,
+repeatable automation**.
+
+---
+
+## ✨ Key Highlights
+| Feature | Detail |
+|---|---|
+| ⚡ Deployment Speed | Manual hours → Automated seconds |
+| 🔒 Security | No public storage exposure risk |
+| ♻️ Reusability | One codebase for Dev / Test / Prod |
+| 📦 Resources Automated | Resource Group + Storage Account |
+| 🤖 ML Integration | Bike Demand Prediction storage backend |
+
+---
+
+## 🛠️ Tech Stack
+- **Cloud Platform:** Microsoft Azure (East US)
+- **IaC Tool:** HashiCorp Terraform `>= 1.9.0`
+- **Provider:** `azurerm ~> 4.8.0`
+- **Language:** HCL (HashiCorp Configuration Language)
+
+---
+
+## ⚙️ How to Run
 ```bash
-terraform init    # Install Azure provider
-terraform plan    # Preview changes
-terraform apply   # Deploy resources
+# Step 1 — Initialize
+terraform init
+
+# Step 2 — Preview changes
+terraform plan
+
+# Step 3 — Deploy to Azure
+terraform apply
 ```
 
 ---
 
-## 🛠️ Tools Used
-- **Platform:** Microsoft Azure Cloud
-- **IaC Tool:** HashiCorp Terraform (>= 1.9.0)
-- **Provider:** azurerm (~> 4.8.0)
-- **Language:** HCL (HashiCorp Configuration Language)
-- **Dataset:** Bike Rental Demand (ML Model)
+## 📊 Result
+✅ Azure Resource Group `ai-agent-environment` (East US) deployed  
+✅ Azure Storage Account provisioned automatically  
+✅ ML Model (Bike Count Prediction) — Predicted vs Actual validated  
+
+---
+
+## 🔮 Future Scope
+- [ ] Azure OpenAI & Cognitive Services integration
+- [ ] Serverless automation via Azure Functions
+- [ ] CI/CD pipeline — GitHub Actions / Azure DevOps
+- [ ] Azure Key Vault for secrets management
+- [ ] Azure Monitor + Log Analytics
+
+---
+
+## 🏅 Internship
+**Microsoft Elevate × AICTE** — Power BI for Business Applications  
+📅 20 Jan 2026 – 12 Feb 2026
 
 ---
 
 ## 👤 Author
 **Sagar Kishor Shende**  
 [![GitHub](https://img.shields.io/badge/GitHub-sagar--shende-black?logo=github)](https://github.com/sagar-shende)
+[![Email](https://img.shields.io/badge/Email-sagarshende0608-red?logo=gmail)](mailto:sagarshende0608@gmail.com)
